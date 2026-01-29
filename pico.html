@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pico do Desengano | Rota Pé no Chão</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="css/lugar.css">
+
+  </head>
+
+  <body>
+    <!-- ===== MENU ===== -->
+    <header class="topo">
+      <section>
+        <a href="index.html" class="logo">
+          <img src="assets/imagens/logo.png" alt="Logo Rota Pé no Chão">
+        </a>
+        <nav class="navbar">
+          <a href="index.html">Início</a>
+          <button class="btn-inscrever" id="abrirModal">
+            Inscreva-se
+          </button>
+        </nav>
+        <div class="navegacao-lugares">
+          <button class="btn-voltar" onclick="history.back()">❮ Voltar</button>
+          <a class="btn-proximo">Próximo ❯</a>
+        </div>
+
+      </section>
+    </header>
+
+    <div class="modal-inscricao" id="modalInscricao">
+      <div class="modal-conteudo">
+        <button class="fechar-modal" id="fecharModal">✕</button>
+
+        <h2>Receba novidades 🌿</h2>
+
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSeSh4NX_6ozsQHAV20DLDw0MMlfhs8TM6FyS08OAbw-936YMg/viewform?embedded=true"
+          width="640" height="427" frameborder="0" marginheight="0"
+          marginwidth="0"></iframe>
+      </div>
+    </div>
+
+    <section class="banner">
+      <div class="banner-inner">
+
+        <div class="banner-text">
+          <h1>Pico do Desengano</h1>
+        </div>
+
+        <div class="banner-image">
+          <img src="assets/imagens/pdimg5.webp" alt="Pico do Desengano">
+        </div>
+
+      </div>
+    </section>
+
+    <main class="informacoes">
+
+      <section class="info-longas">
+        <h2>Sobre o lugar</h2>
+        <p> O Pico do Desengano é um dos pontos mais imponentes e menos
+          explorados da Região Norte Fluminense, sendo
+          um
+          verdadeiro convite para quem busca contato intenso com a natureza,
+          aventura e paisagens de tirar o fôlego.
+          Localizado em meio ao Parque Estadual do Desengano, o pico representa
+          um dos pontos mais altos do estado do
+          Rio
+          de Janeiro e oferece uma experiência marcante para trilheiros mais
+          experientes.<br><br>
+          A caminhada até o topo atravessa áreas preservadas de Mata Atlântica,
+          com trechos de floresta densa, campos
+          de
+          altitude e formações rochosas que revelam a diversidade ambiental da
+          região. Ao longo do percurso, é
+          possível
+          observar árvores centenárias, bromélias, orquídeas silvestres e, com
+          sorte, animais típicos do bioma, como
+          aves
+          de rapina, pequenos mamíferos e insetos raros.<br><br>
+          A trilha é longa e exigente, com subidas íngremes e terrenos
+          irregulares, o que torna o desafio ainda mais
+          recompensador. O esforço é compensado ao alcançar áreas mais abertas,
+          onde a vegetação muda e o clima se
+          torna
+          mais fresco. Conforme a altitude aumenta, o silêncio e a sensação de
+          isolamento reforçam a conexão com o
+          ambiente natural.<br><br>
+          No topo do Pico do Desengano, o visitante é presenteado com uma vista
+          panorâmica impressionante, que em dias
+          de
+          céu limpo permite observar diversas cidades da região e extensas áreas
+          verdes praticamente intocadas. O
+          vento
+          constante e a sensação de estar acima de tudo tornam o momento único,
+          ideal para contemplação, descanso e
+          fotografia.<br><br>
+          Por ser uma área de preservação ambiental, o local exige respeito às
+          regras de conservação. A visita ao Pico
+          do
+          Desengano não é apenas uma trilha, mas uma experiência completa de
+          imersão na natureza, indicada para quem
+          busca
+          superação pessoal, silêncio, paisagens grandiosas e um contato
+          verdadeiro com o ambiente natural.</p>
+
+      </section>
+
+      <section class="info-curtas">
+        <h2>Informações rápidas</h2>
+        <div class="info-grid">
+          <div class="info-box"><strong>📍 Localização</strong>Santa Maria
+            Madalena – RJ</div>
+          <div class="info-box"><strong>🥾 Nível</strong> Difícil</div>
+          <div class="info-box"><strong>⏱ Duração</strong>Cerca de 6 a 8
+            horas</div>
+          <div class="info-box"><strong>🎒 O que levar</strong>lanche reforçado,
+            agasalho, protetor solar e repelente
+          </div>
+        </div>
+      </section>
+
+      <section class="galeria">
+        <h2>Galeria</h2>
+
+        <div class="carousel">
+          <button class="carousel-btn prev">❮</button>
+
+          <div class="carousel-track">
+            <img src="assets/imagens/pdimg1.webp" alt="Pico do Desengano">
+            <img src="assets/imagens/pdimg2.webp" alt="Pico do Desengano">
+            <img src="assets/imagens/card4.webp" alt="Pico do Desengano">
+            <img src="assets/imagens/pdimg4.webp" alt="Pico do Desengano">
+            <img src="assets/imagens/pdimg5.webp" alt="Pico do Desengano">
+          </div>
+
+          <button class="carousel-btn next">❯</button>
+        </div>
+      </section>
+
+      <section class="dicas">
+        <h3>💡 Dicas importantes</h3>
+        <p>• Verifique o clima antes de ir: Neblina e chuva são comuns na região
+          e podem dificultar a navegação e
+          aumentar
+          o risco de escorregões, principalmente nos trechos mais
+          íngremes.<br><br>
+          • Use calçado apropriado: Tênis comuns não são recomendados. Dê
+          preferência a botas ou tênis de trilha com
+          solado aderente, pois o terreno pode ficar escorregadio,
+          principalmente após chuvas.<br><br>
+          • Tenha preparo físico adequado: O Pico do Desengano é a montanha mais
+          alta do Norte Fluminense e exige
+          resistência. A trilha tem trechos
+          longos de subida contínua, o que pode cansar bastante quem não está
+          acostumado.</p>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>© 2026 • Rota Pé no Chão</p>
+    </footer>
+
+    <script src="js/carousel.js"></script>
+    <script src="js/navegacao.js" defer></script>
+    <script src="js/modal.js"></script>
+
+  </body>
+
+</html>
